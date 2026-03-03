@@ -1,7 +1,7 @@
 {
     "author": "Edward Bowden",
     "dependencies": {
-        "@rebble/clay": "^1.0.6"
+        "@rebble/clay": "^1.0.8"
     },
     "keywords": [],
     "name": "clean",
@@ -37,13 +37,13 @@
                     "type": "font"
                 },
                 {
-                    "characterRegex": "[A-Za-z 0-9°]",
+                    "characterRegex": "[A-Za-z 0-9\u00b0]",
                     "file": "fonts/Squares Bold Free.ttf",
                     "name": "FONT_SQUARES_BOLD_20",
                     "type": "font"
                 },
                 {
-                    "characterRegex": "[A-Za-z 0-9°]",
+                    "characterRegex": "[A-Za-z 0-9\u00b0]",
                     "file": "fonts/Squares Bold Free.ttf",
                     "name": "FONT_SQUARES_BOLD_16",
                     "type": "font"
@@ -60,5 +60,5 @@
             "watchface": true
         }
     },
-    "version": "1.0.4"
+    "version": "1.0.0"
 }
